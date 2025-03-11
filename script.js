@@ -50,3 +50,8 @@ function remv() {
 function equal() {
     document.calcul.result.value = eval(document.calcul.result.value);
 }
+
+
+function log() {
+    document.calcul.result.value = roundOff(Math.log(document.calcul.result.value));
+}
